@@ -7,7 +7,7 @@ const RepoDetail = ({ repo }) => {
       <p>{repo.description}</p>
       <p>Language: {repo.language}</p>
       <p>Stars: {repo.stargazers_count}</p>
-      {/* Add more details as needed */}
+      
     </div>
   );
 };

@@ -9,8 +9,8 @@ const RepoList = ({ repositories }) => {
         {repositories.map(repo => (
           <li key={repo.id}>
             <Link href={`/repos/${repo.owner.login}/${repo.name}`}>
-              <a>{repo.name}</a>
             </Link>
+            { <p>{repo.name}</p> }
           </li>
         ))}
       </ul>
